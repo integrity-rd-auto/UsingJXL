@@ -51,7 +51,7 @@ public class DataDriven {
 		Sheet sheet = wb.getSheet("Sheet1");
 		int cols = sheet.getColumns();
 		int rows = sheet.getRows();
-		System.out.println(cols + "," + rows);
+		
 
 		String inputData[][] = new String[rows][cols];
 

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19517" started-at="2020-01-25T00:48:54Z" finished-at="2020-01-25T00:49:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19517" started-at="2020-01-25T00:48:54Z" finished-at="2020-01-25T00:49:13Z">
+      <class name="TestData.DataDriven">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:TestData.DataDriven@52aa2946]" name="initialization" is-config="true" duration-ms="6017" started-at="2020-01-25T06:18:54Z" finished-at="2020-01-25T06:19:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="adminLogin(java.lang.String, java.lang.String)[pri:0, instance:TestData.DataDriven@52aa2946]" name="adminLogin" duration-ms="1179" started-at="2020-01-25T06:19:00Z" data-provider="testdata" finished-at="2020-01-25T06:19:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:TestData.DataDriven@52aa2946]" name="initialization" is-config="true" duration-ms="5554" started-at="2020-01-25T06:19:01Z" finished-at="2020-01-25T06:19:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="adminLogin(java.lang.String, java.lang.String)[pri:0, instance:TestData.DataDriven@52aa2946]" name="adminLogin" duration-ms="975" started-at="2020-01-25T06:19:07Z" data-provider="testdata" finished-at="2020-01-25T06:19:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@124]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:TestData.DataDriven@52aa2946]" name="initialization" is-config="true" duration-ms="4688" started-at="2020-01-25T06:19:08Z" finished-at="2020-01-25T06:19:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="adminLogin(java.lang.String, java.lang.String)[pri:0, instance:TestData.DataDriven@52aa2946]" name="adminLogin" duration-ms="956" started-at="2020-01-25T06:19:12Z" data-provider="testdata" finished-at="2020-01-25T06:19:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@125]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin -->
+      </class> <!-- TestData.DataDriven -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
